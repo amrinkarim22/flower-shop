@@ -28,12 +28,13 @@ body{
     line-height: 30px;
     color: #272727;
     padding-left: 150px;
+    margin-bottom: 20px;
   
 }
 .shop-now-button{
     background-color: #E55473;
     color: white;
-    padding:   15px 43px;
+    padding:   20px 48px;
     border-radius: 5px;
     border: none;
     margin-left: 150px;
@@ -45,9 +46,44 @@ body{
     font-weight: 900;
     text-align: center;
     margin-bottom: 10px;
+    color: #272727;
 }
 .featured-description{
     font-size: 18px;
     line-height: 30px;
     text-align: center;
+    color: #272727;
 }
+
+.featured-pics{
+   margin: 30px 0px 30px 300px;
+   display:flex;
+   gap: 150px;
+}
+
+.flower{
+    height: 370px;
+}
+
+.help-desk-icons{
+    
+    display: inline-flex;
+    margin-top: 150px;
+    margin-left: 400px;
+    gap: 50px;
+}
+.img-section{
+    
+}
+
+.img-description{
+
+    font-size: 24px;
+    font-weight: 600 ;
+    line-height: 35px;
+    text-align: center;
+}
+
+
+
+
