@@ -45,15 +45,15 @@ body{
 
 /* main section styles */
 .featured-heading{
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 900;
     text-align: center;
     margin-top: 200px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     color: #272727;
 }
 .featured-description{
-    font-size: 18px;
+    font-size: 14px;
     line-height: 30px;
     text-align: center;
     color: #272727;
@@ -71,20 +71,17 @@ body{
 
 .help-desk-icons{
     background-color: #f5f0f0;
-    gap: 50px;
+    gap: 150px;
     display: flex;
-    margin:      200px 0px 200px 0px;
-    padding-left: 100px;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    width: 100%;
+    margin:   200px 0px 200px 100px;
+    padding: 100px 0px 50px 100px;
+    width: 1000px;
    
 }
 .img-section{
     height: 80px; 
-    flex: 33.33%;
-    padding-left:  140px;
- 
+    flex: 40.33%;
+    padding-left:  50px; 
 }
 
 .img-description{
@@ -93,7 +90,8 @@ body{
     font-weight: 600 ;
     line-height: 35px;
     text-align: center;
-    padding-left: 120px;
+    padding-left: 10px;
+   
 }
 .hot-deals{
 
@@ -101,7 +99,6 @@ body{
     background-repeat: no-repeat;
     background-position: right;
     margin-bottom: 0px;
-   
 }
 
 .hot-deals-heading{
@@ -109,7 +106,7 @@ body{
     font-size: 40px;
     font-weight: 800px;
     color: #272727;
-    padding:    200px 0px 0px 200px;
+    padding:    200px 0px 0px 100px;
 }
 
 .pink-color{
@@ -120,8 +117,7 @@ body{
     font-size: 18px;
     line-height: 30px;
     color: #272727;
-    padding: 0px 0px 0px 200px;
-    
+    padding: 0px 0px 0px 200px;    
 }
 
 .sign-up-button{
@@ -140,14 +136,60 @@ body{
 }
 
 .box{
-    margin:     50px 0px 50px 0px;
+    margin:     50px 0px 0px 200px;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .flowers{
-    width: 340px;
-    height: 395px;
+                width:  230px;
+                height: 280px; 
+}
+
+
+.form-section{
+    display: flex;
+   
+}
+
+.latest-deals{
+     
+    background: url(../images/Rectangle\ 9.png);
+    height: 449px;
+    margin: 200px 0px 0px 200px;
+
+}
+
+.email-form input[type="email"] {
+    display: block;
+    text-align: left;
+    margin:      100px 0px 0px 50px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+                   width: 466px;
+                   height: 30px;
+}
+
+footer{
+         background-color: #111010;
+         padding: 50px 0px 0px 0px;
+         margin: 100px 200px 200px 100px;
+}
+.footer-heading{
+
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    color: #272727;
+
+}
+
+.footer-text{
+    font-size: 10px;
+    text-align: center;
 }
 
 
