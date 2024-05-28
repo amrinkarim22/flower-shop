@@ -97,7 +97,8 @@ body{
 
     background-image: url(../images/pngwing\ 8.png) ,linear-gradient(to left, pink , white);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position-x: 90%;
+    background-position-y: 75%;
     margin-bottom: 0px;
 }
 
@@ -106,7 +107,7 @@ body{
     font-size: 40px;
     font-weight: 800px;
     color: #272727;
-    padding:    200px 0px 0px 100px;
+    padding:    200px 0px 0px 200px;
 }
 
 .pink-color{
@@ -155,22 +156,62 @@ body{
 .latest-deals{
      
     background: url(../images/Rectangle\ 9.png);
-    height: 449px;
-    margin: 200px 0px 0px 200px;
+    background-size: 980px 449px;
+    height:    400px;
+    background-repeat: no-repeat;
+    margin: 200px 0px 150px 200px;
+ 
 
+}
+
+.latest-deal-heading{
+
+     font-size: 40px;
+     font-weight: 900;
+     color: #272727;
+     text-align: center;
+     padding-top: 80px;
+     padding-right: 120px;
+}
+
+.latest-deal-description{
+
+      font-size: 18px;
+      font-weight: 400;
+      color: #413f3f;
+      text-align: center;
+      padding-right: 120px;
+}
+
+.form-section{
+    display: flex;
 }
 
 .email-form input[type="email"] {
-    display: block;
-    text-align: left;
-    margin:      100px 0px 0px 50px;
-    color: white;
+    color: #b6abab;
+    background-color: white;
     border-radius: 5px;
-    border: none;
-                   width: 466px;
-                   height: 30px;
+    border:    none;
+    padding:     20px 100px 20px 10px;
+    width:       90%;
+    margin:     0px 0px 30px 150px; 
 }
 
+.subscribe-button{
+
+    background-color: #E55473;
+    font-size: 14px;
+    font-weight: 800px;
+    color: white;
+    padding:     18px 30px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 220px;
+
+}
+
+
+/* footer section */
 footer{
          background-color: #111010;
          padding: 50px 0px 0px 0px;
@@ -198,7 +239,7 @@ footer{
 .footer-text{
     font-size: 10px;
     text-align: center;
-    color: white;
+    color: rgb(184, 179, 179);
     padding-bottom: 100px;
 }
 
