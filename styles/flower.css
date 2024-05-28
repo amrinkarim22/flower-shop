@@ -66,8 +66,21 @@ body{
 }
 
 .flower{
-    height: 370px;
+   height: 370px;
 }
+ 
+.pink-flower{
+       
+                   font-size: 18px;
+                   font-weight: bold;
+                   text-align: center;
+                   text-decoration: underline;
+                   color: #413f3f;
+                   margin-top: 100px;
+
+}
+
+
 
 .help-desk-icons{
     background-color: #f5f0f0;
